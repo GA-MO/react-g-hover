@@ -1,13 +1,7 @@
-import React, { Component } from 'react'
-import { classNamePrefix } from '../configs'
-import '../css/style.css'
+import RGHContainer from './RGHContainer'
+import RGHItem from './RGHItem'
 
-export default class ReactComponent extends Component {
-  render() {
-    return (
-      <div className={classNamePrefix}>
-        <h1>Yo! React Component npm package</h1>
-      </div>
-    )
-  }
+export {
+  RGHContainer,
+  RGHItem
 }
