@@ -1,7 +1,7 @@
-import RGHContainer from './RGHContainer'
-import RGHItem from './RGHItem'
+import GHoverContainer from './GHoverContainer'
+import GHoverItem from './GHoverItem'
 
 export {
-  RGHContainer,
-  RGHItem
+  GHoverContainer,
+  GHoverItem
 }

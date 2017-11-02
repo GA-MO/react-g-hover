@@ -1,7 +1,7 @@
 {
-  "name": "react-component-npm-package-boilerplate",
-  "version": "0.1.0",
-  "description": "React boilerplate easy to create npm package react component",
+  "name": "react-g-hover",
+  "version": "0.0.1",
+  "description": "Tools for making hover effect using modern CSS 3D transform with mouse move.",
   "main": "lib/index.js",
   "scripts": {
     "dev": "webpack-dev-server --hot --inline",
@@ -12,27 +12,25 @@
     "build": "npm run clean && babel src --out-dir lib",
     "prepublish": "npm run build"
   },
-  "author": "Thawatchai Kuansombat (thawatchai.deartk@gmail.com)",
+  "author": "(GAMO) Thawatchai Kuansombat (thawatchai.deartk@gmail.com)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GA-MO/react-component-npm-package-boilerplate.git"
+    "url": "https://github.com/GA-MO/react-g-hover.git"
   },
   "bugs": {
-    "url": "https://github.com/GA-MO/react-component-npm-package-boilerplate/issues"
+    "url": "https://github.com/GA-MO/react-g-hover/issues"
   },
-  "homepage": "https://github.com/GA-MO/react-component-npm-package-boilerplate",
+  "homepage": "https://github.com/GA-MO/react-g-hover",
   "keywords": [
-    "react-component",
-    "react-component-npm",
-    "react-component-npm-package",
-    "react-component-npm-package-boilerplate",
+    "hover",
+    "g-hover",
+    "react-g-hover",
+    "react hover",
     "react"
   ],
   "files": [
-    "lib",
-    "css/style.css",
-    "configs"
+    "lib"
   ],
   "devDependencies": {
     "babel-cli": "^6.26.0",
